@@ -4,32 +4,87 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Student Bio Page</title>
+
+    <!-- CSS only -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+<!-- JS, Popper.js, and jQuery -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+<link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+
 </head>
 <body>
-    <div>
-        <h1>Welcome to my Page (still in progress...)</h1>
-        <h2>My name is Felipe Murillo</h2>
-        <hr>
-    </div>
+    <header class="blog-header pt-4">
+        <div class="row flex-nowrap justify-content-between align-items-center">
+          <div class="col-12 text-center">
+            <h1 class="blog-header-logo text-light" style="font-size: xx-large;">felipe murillo</h1>
+            <p style="color: #F78E31">data analytics portfolio</p>
+          </div>
+        </div>
+      </header>
 
-    <div>
-        <h4>About Me</h4>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus rerum architecto voluptatem dolore consequuntur rem iusto, tempore neque excepturi voluptatum culpa mollitia fugit quae! Cum modi fugit voluptas omnis. Iste!</p>
-        <hr>
-    </div>
+      <div class="row mt-5 justify-content-md-center">
+        <div class="col-md-3">
+          <div class="row no-gutters rounded overflow-hidden flex-md-row mb-1 h-md-250 position-relative">
+            <div class="col p-3 d-flex flex-column position-static">
+              <strong class="d-inline-block mb-2" style="color: #F78E31">api requests | seaborn | gmaps</strong>
+              <h3 class="mb-0">covid-19 data visualization</h3>
+              <p class="mb-auto" style="color:#B2967D">data mining, munging & visualization: correlating covid-19 data with several financial indicators</p>
+              <a href="https://github.com/felipeomurillo/equipo_f" class="text-warning stretched-link">>>>>></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="row no-gutters rounded overflow-hidden flex-md-row mb-4 h-md-250 position-relative">
+            <div class="col p-3 d-flex flex-column position-static text-right">
+              <strong class="d-inline-block mb-2" style="color:#F78E31">beautiful soup | flask | pymongo</strong>
+              <h3 class="mb-0">mission2mars</h3>
+              <br>
+              <p class="mb-auto" style="color:#B2967D">web-scrape various sites for mars-relagted data, save into mongo_db, and render results into html</p>
+              <a href="https://github.com/felipeomurillo/web-scraping-challenge" class="text-warning stretched-link"><<<<<</a>
+            </div>
+          </div>
+        </div>
+      </div>
 
-    <div>   
-        <h4>Languages</h4>
-        <ul>
-            <li>Python</li>
-            <li>SQL</li>
-        </ul>
-        <hr>
-    </div>
-
-    <div>
-        <p>Created by: FM, 2020</p>
-    </div>
+      <div class="row my-1 justify-content-md-center">
+        <div class="col-md-3">
+          <div class="row no-gutters rounded overflow-hidden flex-md-row mb-4 h-md-250 position-relative">
+            <div class="col p-3 d-flex flex-column position-static">
+              <strong class="d-inline-block mb-2" style="color: #F78E31">html | css | bootstrap</strong>
+              <h3 class="mb-0">weather around the world</h3>
+              <p class="mb-auto" style="color:#B2967D">correlate world-wide cities' latitude with their climate data & organize visualizations in a website</p>
+              <a href="https://felipeomurillo.github.io/Web-Design-Challenge/" class="text-warning stretched-link">>>>>></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="row no-gutters rounded overflow-hidden flex-md-row mb-4 h-md-250 position-relative">
+            <div class="col p-3 d-flex flex-column position-static text-center">
+              <strong class="d-inline-block mb-2" style="color:#F78E31">sqlalchemy | postgresql </strong>
+              <h3 class="mb-0">employee database</h3>
+              <br>
+              <p class="mb-auto" style="color:#B2967D">create postgresql database from scratch and import into pandas using sqlalchemy for analysis/visualization</p>
+              <a href="#" class="text-warning stretched-link">>>><<<</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="row no-gutters rounded overflow-hidden flex-md-row mb-4 h-md-250 position-relative">
+            <div class="col p-3 d-flex flex-column position-static text-right">
+              <strong class="d-inline-block mb-2" style="color:#F78E31">sqlalchemy | flask </strong>
+              <h3 class="mb-0">surfs up!</h3>
+              <br>
+              <p class="mb-auto" style="color:#B2967D">use python to pull a sqlite weather database for a data analysis & use flask to create an api using query requests</p>
+              <a href="#" class="text-warning stretched-link"><<<<<</a>
+            </div>
+          </div>
+        </div>
+      </div>
         
 </body>
 </html>

@@ -1,0 +1,23 @@
+html {
+    background: url(images/background_faces_e.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-color: #112b45;
+    overflow: hidden;
+  }
+
+body {
+    background: transparent;
+    font-family: 'Special Elite', cursive;
+    color: #fafafa;
+}
+
+.navbar-inner {
+    background:transparent;
+}
+
+.blog-header-logo {
+    margin-bottom: 0pt;
+}
