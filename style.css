@@ -31,7 +31,7 @@ img#footer {
     object-fit: cover;
     width: 100vw;
     position: fixed;
-    transform: translate(0,20px);
+    transform: translate(0,40px);
     left: 0px;
     bottom: 0px;
 }
